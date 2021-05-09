@@ -39,17 +39,17 @@ const BarChart = () => {
                 const myLabels = data.map(x => x.sellerName);
                 const mySeries = data.map(x => round(100.0 * x.visited / x.deals, 1));
 
-                setChartData({ 
+                setChartData({
                     labels: {
-                    categories: myLabels
-                },
-                series: [
-                    {
-                        name: "% Sucesso",
-                        data: mySeries
-                    }
-                ]
-            });
+                        categories: myLabels
+                    },
+                    series: [
+                        {
+                            name: "% Sucesso",
+                            data: mySeries
+                        }
+                    ]
+                });
             });
     }, [])
 
@@ -61,19 +61,6 @@ const BarChart = () => {
             }
         },
     };
-
-    //
-    //const mockData = {
-      //  labels: {
-        //    categories: ['Anakin', 'Barry Allen', 'Kal-El', 'Logan', 'Padmé']
-        //},
-        //series: [
-          //  {
-            //    name: "% Sucesso",
-              //  data: [43.6, 67.1, 67.7, 45.6, 71.1]
-            //}
-        //]
-    //};
 
     return (
         <Chart
