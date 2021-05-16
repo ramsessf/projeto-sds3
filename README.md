@@ -10,7 +10,7 @@ DSVendas é uma aplicação full stack web e mobile construída durante a 3ª ed
 A aplicação consiste em exibir um dashboard a partir de uma lista de dados relacionados com vendas, fornecidos por um back end construído com Spring Boot. Também apresenta gráficos baseados nestes dados.
 
 ## Layout mobile
-![Mobile 1](https://github.com/ramsessf/projeto-sds3/blob/master/mobile.jpeg) ![Mobile 2]()
+![Mobile 1](https://github.com/ramsessf/projeto-sds3/blob/master/mobile.jpeg) ![Mobile 2](https://github.com/ramsessf/projeto-sds3/blob/master/mobile2.jpeg)
 
 ## Layout web
 ![Web 1](https://github.com/ramsessf/projeto-sds3/blob/master/web2.png)
